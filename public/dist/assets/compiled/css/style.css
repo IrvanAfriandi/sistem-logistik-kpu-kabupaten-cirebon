@@ -1,0 +1,16 @@
+.custom-btn {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: maroon;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: white;
+    color: maroon;
+    border: 1px solid maroon;
+}

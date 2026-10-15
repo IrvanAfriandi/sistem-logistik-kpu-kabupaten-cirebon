@@ -1,0 +1,159 @@
+.text-shrink {
+    font-size: 12px;            /* Ukuran default font */
+    white-space: nowrap;        /* Pastikan teks tetap dalam satu baris */
+    overflow: hidden;           /* Sembunyikan overflow jika diperlukan */
+    text-overflow: ellipsis;    /* Tambahkan ellipsis jika diperlukan */
+    max-width: 100%;            /* Batas maksimum lebar */
+    display: inline-block;      /* Pastikan elemen inline untuk scaling */
+    transform-origin: left;     /* Titik transformasi dari kiri */
+    font-size: calc(12px + 0.3vw); /* Membuat ukuran font responsif */
+}
+.custom-btn {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: maroon;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.custom-btn1 {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: white;
+    color: maroon;
+    border: 1px solid maroon;
+}
+
+.bi-gear {
+    color: #6c757d; /* Warna default ikon */
+    transition: color 0.3s ease;
+}
+
+.bi-gear:hover {
+    color: #000; /* Warna ikon saat di-hover */
+}
+.profile-card {
+    position: relative;
+    overflow: hidden;
+    text-align: center; /* Teks di tengah kartu */
+}
+
+.profile-card-body {
+    padding: 1rem;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-name h5 {
+    font-size: 1.2rem; /* Ukuran teks nama */
+    margin-bottom: 0.5rem;
+}
+
+.profile-name h6 {
+    font-size: 0.9rem; /* Ukuran teks email */
+    color: #6c757d; /* Warna teks email */
+    margin: 0;
+}
+
+.card {
+    position: relative;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0.1px rgba(0, 0, 0, 0.2); /* Glow effect dengan radius lebih luas */
+}
+
+
+.sidebar {
+    position: relative;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0.1px rgba(0, 0, 0, 0.2); /* Smooth transition */
+}
+
+.custom-table {
+    width: 100%;
+    background-color: #f8f9fa; /* Warna latar belakang tabel abu-abu */
+    border-radius: 8px; /* Sudut melengkung pada tabel */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Efek bayangan lebih halus */
+    border: none;
+    margin-top: 10px;
+    padding-bottom: 10px; /* Memberikan jarak bawah tabel */
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #e9ecef; /* Latar belakang header tabel */
+    color: #495057; /* Warna teks header */
+    font-weight: bold;
+}
+
+.custom-input {
+    width: 100%; /* Mengisi lebar kolom */
+    padding: 12px;
+    border-radius: 8px; /* Sudut melengkung */
+    border: 1px solid #ddd; /* Garis tepi abu-abu */
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus dan konsisten */
+    margin-bottom: 10px; /* Memberikan jarak bawah */
+}
+
+.custom-input:focus {
+    border-color: #007bff; /* Warna border saat fokus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Efek bayangan lebih terang */
+    outline: none; /* Menghilangkan outline */
+}
+
+.custom-table td {
+    border-top: 1px solid #ddd; /* Menambahkan garis pemisah antar baris */
+}
+
+#add-row-btn {
+    margin-top: 10px;
+}
+
+.profile-image {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-image input[type="file"] {
+    display: block;
+    margin-top: 10px;
+}
+
+form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
