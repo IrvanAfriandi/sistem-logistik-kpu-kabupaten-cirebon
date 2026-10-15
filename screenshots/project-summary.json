@@ -1,0 +1,79 @@
+{
+  "slug": "logistik",
+  "title": "Sistem Informasi Logistik KPU Kabupaten Cirebon",
+  "category": "Logistik Pemilu",
+  "shortDescription": "Pengelolaan logistik pemilu, dari surat suara dan perlengkapan hingga packing dan distribusi.",
+  "tags": [
+    "Laravel",
+    "MySQL",
+    "Bootstrap 5"
+  ],
+  "about": "Aplikasi ini mendukung pengelolaan logistik pemilu untuk operator Admin dan PPK, termasuk pencatatan surat suara, perlengkapan, serta proses sortir, packing, dan distribusi. Proyek dibangun dengan Laravel 10 dan Blade, dengan antarmuka berbasis Mazer dan Bootstrap.",
+  "features": [
+    "Dashboard administrasi sebagai pintu masuk modul logistik.",
+    "Pencatatan box surat suara, jenis, dan statusnya.",
+    "Manajemen akun PPK dan pengisian profil dengan foto.",
+    "Halaman kerja PPK untuk memantau progres sortir-lipat."
+  ],
+  "technologies": [
+    "Laravel 10",
+    "PHP 8.1+",
+    "MySQL (default konfigurasi)",
+    "SQLite (database sementara screenshot)",
+    "Blade",
+    "Bootstrap 5 (antarmuka Mazer)",
+    "JavaScript",
+    "Vite",
+    "Laravel Sanctum",
+    "barryvdh/laravel-dompdf",
+    "Guzzle"
+  ],
+  "liveUrl": null,
+  "repoUrl": "https://github.com/IrvanAfriandi/sistem-logistik-kpu-kabupaten-cirebon",
+  "screenshots": [
+    {
+      "file": "01-dashboard.webp",
+      "caption": "Dashboard utama Admin untuk navigasi pengelolaan logistik."
+    },
+    {
+      "file": "02-dashboard-lanjutan.webp",
+      "caption": "Dashboard utama Admin untuk navigasi pengelolaan logistik. (bagian lanjutan)."
+    },
+    {
+      "file": "03-login.webp",
+      "caption": "Form masuk untuk Admin dan PPK."
+    },
+    {
+      "file": "04-daftar-box-surat-suara.webp",
+      "caption": "Daftar box surat suara dengan data uji dan pencarian aktif."
+    },
+    {
+      "file": "05-daftar-box-surat-suara-lanjutan.webp",
+      "caption": "Daftar box surat suara dengan data uji dan pencarian aktif. (bagian lanjutan)."
+    },
+    {
+      "file": "06-pemantauan-sorlip-ppk.webp",
+      "caption": "Halaman PPK untuk memantau progres sortir-lipat petugas."
+    },
+    {
+      "file": "07-pemantauan-sorlip-ppk-lanjutan.webp",
+      "caption": "Halaman PPK untuk memantau progres sortir-lipat petugas. (bagian lanjutan)."
+    },
+    {
+      "file": "08-pilih-foto-profil.webp",
+      "caption": "Form akun PPK berisi data contoh dan foto dummy yang telah dipilih."
+    },
+    {
+      "file": "09-pilih-foto-profil-lanjutan.webp",
+      "caption": "Form akun PPK berisi data contoh dan foto dummy yang telah dipilih. (bagian lanjutan)."
+    },
+    {
+      "file": "10-unggah-foto-berhasil.webp",
+      "caption": "Konfirmasi setelah foto dummy akun PPK berhasil diunggah."
+    },
+    {
+      "file": "11-unggah-foto-berhasil-lanjutan.webp",
+      "caption": "Konfirmasi setelah foto dummy akun PPK berhasil diunggah. (bagian lanjutan)."
+    }
+  ]
+}
